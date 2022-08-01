@@ -14,7 +14,7 @@ programa
 		senao se (num % 2 == 0 e num < 0){
 			escreva("\n",num," é par e negativo")
 		}
-		senao se (num % 2 != 0 e num >=0){
+		senao se (num % 2 == 1 e num >=0){
 			escreva("\n",num," é ímpar e positivo")
 		}
 		senao{
